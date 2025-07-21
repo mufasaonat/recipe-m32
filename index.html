@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Links of M32 Students - Recipe Page</h1>
+    <h2>July 21, 2025</h2>
+    
+    <ul id="links-container"></ul> <!-- Changed to <ul> for bullet points -->
+
+    <script>
+        // Generate bulleted links from M3201 to M3230
+        const container = document.getElementById('links-container');
+        
+        for (let i = 3201; i <= 3230; i++) {
+            const listItem = document.createElement('li'); // Create <li> for each link
+            const link = document.createElement('a');    // Create <a>
+            link.href = `m${i}.html`;
+            link.textContent = `M${i}`;
+            listItem.appendChild(link); // Put <a> inside <li>
+            container.appendChild(listItem); // Add <li> to <ul>
+        }
+    </script>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
