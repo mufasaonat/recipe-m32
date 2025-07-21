@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://127.0.0.1:5500/Chocolate%20cake.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>How to make chocolate cake</h1>
+    <img src="./m3210_files/th" alt="Chocolate cake">
+    <p>Chocolate cake is a cake flavored with melted chocolate, cocoa powder, or both.</p>
+    <h2>Ingredient</h2>
+    <!--Number Bullet-->
+    <ul>
+        <li>200g golden caster sugar.</li>
+        <li>200g unsalted butter. softened plus extra for the tins.</li>
+        <li>4 large eggs.</li>
+        <li>200g self-raising flour.</li>
+        <li>2 tbsp cocoa powder.</li>
+        <li>1 tsp baking powder.</li>
+        <li>½ tsp vanilla extract.</li>
+        <li>2 tbsp milk.</li>
+    </ul>
+    <h2>How to make</h2>
+    <!--Number-->
+    <ol>
+        <li>Heat oven to 190C/170C fan/gas 5. Butter the base and sides of two 20cm round sandwich tins and line the bases with baking parchment.</li>
+        <li>In a large bowl, beat together 200g golden caster sugar, 200g softened unsalted butter, 4 large eggs, 200g self-raising flour, 2 tbsp cocoa powder, 1 tsp baking powder, ½ tsp vanilla extract, 2 tbsp milk and a pinch of salt until pale.</li>
+        <li>Divide the mixture between the prepared tins. Bake for 20 mins or until a skewer inserted into the centre of the cake comes out clean.</li>
+        <li>Leave to cool in the tin for 10 mins, then turn out onto a wire rack to cool completely.</li>
+        <li>For the buttercream, put 100g chopped milk chocolate in a heatproof bowl and melt in the microwave, stirring every 30 secs. Leave the melted chocolate to cool for 5 mins.</li>
+        <li>Mash 200g softened butter and 400g icing sugar together with a fork, then switch to a wooden spoon or electric beaters, if you have them.</li>
+        <li>Sift in 5 tbsp cocoa powder with a pinch of salt and pour in the melted chocolate and 2 tbsp milk. Mix again until smooth.</li>
+        <li>On a cake stand or large plate, sandwich the cakes together with half of the buttercream, then spread the rest on top. Decorate with chocolate shards, if you like.</li>
+        <li>To make chocolate shards: melt 50g dark chocolate and pour it onto a tray lined with baking parchment or foil.</li>
+        <li>Now melt 25g milk chocolate and 25g white chocolate and drizzle them over the dark chocolate before it sets.</li>
+        <li>Shake the tray gently to level the mixture then leave to set somewhere cool. Chop into shards.</li>
+    </ol>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

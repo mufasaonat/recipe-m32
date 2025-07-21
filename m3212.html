@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Thai omelette</h1>
+    <p>The Thai omelette, or "Khai Jiao," is a crispy, golden dish made with eggs, fish sauce, and soy sauce. Fried in hot oil, it has a fluffy interior and a crunchy exterior, often served with rice and chili sauce for a perfect balance of flavors.</p>
+    <p>A popular Thai comfort food, the Khai Jiao is a savory omelette made with eggs and seasoned with fish sauce. Fried until crispy on the outside, it's typically served with steamed rice for a simple, satisfying meal and can be followed with ingredients below.</p>
+
+
+    <img src="img/Thai-omelet-recipe-1.jpeg" alt="somtam-thai">
+    <!-- Unordered Bullet -->
+    <ul><h3>Ingredients</h3>
+        <li>2 eggs</li>
+        <li>2 teaspoon of fish sauce</li>
+        <li>vegetable oil</li>
+    </ul>
+    <h3>How to make omelette</h3>
+    <ol>
+        <li>First, crack two eggs in a large bowl.</li>
+        <li>Season the raw eggs with fish sauce, one teaspoon for one egg.</li>
+        <li>Beat the egg with the fish sauce until it is fluffy and homogeneous.</li>
+        <li>Heat sufficient vegetable oil at least one inch in depth in a wok.</li>
+        <li>When the oil is sufficiently hot, pour the beaten eggs about one foot above the wok. This height helps to create more bubbles and make it fluffier.</li>
+        <li>Maintain medium-high heat and do not disturb the egg for the first 20 seconds, to let the egg set. If your oil is at the right temperature, you will observe that the egg will puff up quickly.</li>
+        <li>After that, carefully move the egg slowly to prevent it from sticking to the bottom.</li>
+        <li>When the edges turn golden, lift the omelet with a spatula to check if the bottom has already turned golden brown.</li>
+        <li>Flip the omelet over and continue frying the other side for another 20 to 30 seconds.</li>
+        <li>Remove the omelet with a large wire mesh strainer when both sides have turned golden.</li>
+        <li>Transfer the omelet to a paper towel to absorb as much oil as possible.</li>
+        <li>Garnish the omelet with some spring onions (green onions) or coriander leaf to serve.</li>
+    </ol>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
