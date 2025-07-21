@@ -1,0 +1,75 @@
+/* Pastel Color Palette */
+:root {
+    --pastel-blue: #a2d2ff;
+    --pastel-pink: #ffb7ce;
+    --pastel-green: #b5ead7;
+    --pastel-purple: #cdb4db;
+    --pastel-peach: #ffdac1;
+    --pastel-lavender: #e2cfee;
+}
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--pastel-blue);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #5e548e;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #9f86c0;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+/* Link Grid Styles */
+#links-container {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+#links-container li {
+    background-color: var(--pastel-peach);
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#links-container li:hover {
+    transform: translateY(-3px);
+    background-color: var(--pastel-lavender);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#links-container a {
+    text-decoration: none;
+    color: #6d6875;
+    font-weight: 500;
+    display: block;
+}
+
+#links-container a:hover {
+    color: #5e548e;
+}
