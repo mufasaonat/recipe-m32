@@ -11,19 +11,18 @@
     <h1>Links of M32 Students - Recipe Page</h1>
     <h2>July 21, 2025</h2>
     
-    <ul id="links-container"></ul> <!-- Changed to <ul> for bullet points -->
+    <ul id="links-container"></ul>
 
-    <script>
-        // Generate bulleted links from M3201 to M3230
+    <script>        
         const container = document.getElementById('links-container');
         
         for (let i = 3201; i <= 3230; i++) {
-            const listItem = document.createElement('li'); // Create <li> for each link
-            const link = document.createElement('a');    // Create <a>
+            const listItem = document.createElement('li');
+            const link = document.createElement('a');
             link.href = `m${i}.html`;
             link.textContent = `M${i}`;
-            listItem.appendChild(link); // Put <a> inside <li>
-            container.appendChild(listItem); // Add <li> to <ul>
+            listItem.appendChild(link);
+            container.appendChild(listItem);
         }
     </script>
 </div>
